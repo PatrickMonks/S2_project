@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>School Donations Dashboard</title>
-    <link rel="stylesheet" href="./static/lib/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
-    <link rel="stylesheet" href="./static/lib/css/dc.css">
-    <link rel="stylesheet" href="./static/css/custom.css">
-    <link rel="stylesheet" href="./static/lib/css/introjs.css">
+    <link rel="stylesheet" href="../static/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/lib/css/keen-dashboards.css">
+    <link rel="stylesheet" href="../static/lib/css/dc.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="stylesheet" href="../static/lib/css/introjs.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 
@@ -18,7 +18,8 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="./">School Donations Dashboard</a>
         </div>
-        <button class="introjs-button" id = "button" autofocus onclick="javascript:introJs().start();">Start the tour!</button>
+        <button class="introjs-button" id="button" autofocus onclick="javascript:introJs().start();">Start the tour!
+        </button>
     </div>
 </div>
 
@@ -102,26 +103,26 @@
         {##}
         {#
         <div class="col-sm-2">#}
-            {#
+        {#
             <div class="chart-wrapper">#}
-                {#
+        {#
                 <div class="chart-title">#}
-                    {# Donation City#}
-                    {#
+        {# Donation City#}
+        {#
                 </div>
                 #}
-                {#
+        {#
                 <div class="chart-stage">#}
-                    {#
+        {#
                     <div id="city-select"></div>
                     #}
-                    {#
+        {#
                 </div>
                 #}
-                {#
+        {#
             </div>
             #}
-            {#
+        {#
         </div>
         #}
 
@@ -151,7 +152,15 @@
                 <div class="chart-title">
                     Total Donations in USD
                 </div>
-                <div class="chart-stage">
+                <div class="chart-stage" style="
+            background: #e16d33;
+            position: relative;
+            font-size: 29px;
+            color: white;
+            vertical-align: middle;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 0px;">
                     <div id="total-donations-nd" data-step="7"
                          data-intro="Total value of donations depending on user selection in USD"
                          style="font-weight: normal" data-position="left"></div>

@@ -78,8 +78,8 @@ function makeGraphs(error, projectsJson) {
         .formatNumber(d3.format(".3s"))
 
     timeChart
-        .width(800)
-        .height(200)
+        .width(600)
+        .height(250)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dateDim)
         .group(numProjectsByDate)
@@ -102,7 +102,7 @@ function makeGraphs(error, projectsJson) {
         .group(numProjectsByPovertyLevel)
         .xAxis().ticks(4);
     fundingStatusChart
-        .height(220)
+        .height(250)
         .radius(90)
         .innerRadius(40)
         .transitionDuration(1500)

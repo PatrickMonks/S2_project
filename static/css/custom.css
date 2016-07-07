@@ -4,6 +4,8 @@
 }
 #total-donations-nd {
     font-size:60px;
+    float:right;
+    background: #e16d33;
 }
 
 .dc-chart g.row text {
