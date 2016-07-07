@@ -39,9 +39,9 @@
 }
 .dc-select-menu {
     background: #33cc99;
-    width: 80%;
+    width: 106%;
     border: none;
-    position: relative;
+    /*position: */
     height: 31px;
     font-size:15px;
     color:white;

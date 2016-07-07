@@ -96,7 +96,7 @@ function makeGraphs(error, projectsJson) {
         .group(numProjectsByResourceType)
         .xAxis().ticks(4)
     povertyLevelChart
-        .width(300)
+        .width(650)
         .height(250)
         .dimension(povertyLevelDim)
         .group(numProjectsByPovertyLevel)
