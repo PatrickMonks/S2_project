@@ -12,7 +12,7 @@ COLLECTION_NAME = 'projects'
 FIELDS = {'funding_status': True, 'school_state': True, 'resource_type':
     True, 'poverty_level': True, 'date_posted': True, 'total_donations': True, '_id': False}
 
-MONGO_URI = 'mongodb://root:pooltable1@ds051893.mlab.com:51893/heroku_z8rl105w'
+
 @app.route("/")
 def index():
     return render_template("index.html")
